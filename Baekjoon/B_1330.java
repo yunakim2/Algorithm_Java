@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.io.*;
 
 
-public class backjoon1330 {
+public class B_1330 {
 	public static void main(String[] args) throws IOException {
 		
 		Scanner sc = new Scanner(System.in);

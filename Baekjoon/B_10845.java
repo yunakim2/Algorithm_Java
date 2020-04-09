@@ -1,19 +1,25 @@
-import java.io.*;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class baekjoon10828 {
-	static int stack[];
+public class B_10845 {
+
+	static int queue[];
 	static int size ;
-	static int top;
+	static int front;
+	static int back;
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st;
 		int N = Integer.parseInt(br.readLine());
-		stack = new int[N];
-		top = -1;
+		queue = new int[10001];
+		front = 0 ;
+		back = 0;
 		
 		for(int i = 0 ; i<N ; i ++)
 		{	
@@ -30,15 +36,19 @@ public class baekjoon10828 {
 			}
 			else if(s.equals("size"))
 			{
-				bw.write(top+1+"\n");
+				bw.write(size()+"\n");
 			}
 			else if(s.equals("empty"))
 			{
 				bw.write(empty()+"\n");
 			}
-			else if(s.equals("top"))
+			else if(s.equals("front"))
 			{
-				bw.write(top()+"\n");
+				bw.write(front()+"\n");
+			}
+			else if(s.equals("back"))
+			{
+				bw.write(back()+"\n");
 			}
 		}
 		
@@ -46,36 +56,39 @@ public class baekjoon10828 {
 		bw.close();
 		
 	}
+	public static int front()
+	{
+		if(empty() ==1)
+		{
+			return -1;
+		}
+		return queue[front];
+	}
+	public static int back()
+	{
+		if(empty() ==1)
+		{
+			return -1;
+		}
+		return queue[back-1];
+	}
 	public static void push(int i)
 	{
-		stack[++top] = i;
+		queue[back++] = i;
 	}
 	public static int pop()
 	{	
-		if(top == -1)
-		{	
-			return -1;
-		}
-		else
-		{
-			return stack[top--] ; 
-		}
-	}
-	public static int top()
-	{
-		if(top == -1 )
+		if(empty() == 1)
 		{
 			return -1;
 		}
-		else
-		{
-			return stack[top];	
-		}
+		return queue[++front -1];
 		
 	}
+
 	public static int empty()
 	{
-		if(top == -1)
+		if(size() == 0)
 		{
 			return 1 ;
 		}
@@ -83,7 +96,11 @@ public class baekjoon10828 {
 		{
 			return 0;
 		}
-	
 		
 	}	
+	public static int size()
+	{
+		return back - front;
+	}
+
 }

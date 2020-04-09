@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class backjoon1427_quicksort {
+public class B1427_quicksort {
 	static int n[] ; 
 	static int pivot ;
 	public static void main(String[] args) throws IOException{

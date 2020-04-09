@@ -1,7 +1,7 @@
 import java.io.*;
 import java.io.IOException;
 
-public class baekjoon1427 {
+public class B_1427 {
 
 	public static void main(String[] args) throws IOException {
 		
