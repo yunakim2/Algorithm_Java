@@ -55,3 +55,6 @@
 
 [2178_미로찾기](https://github.com/yunakim2/Algorithm_Java/blob/master/Baekjoon/BFS%20%26%20DFS/B_2178.java)
 
+<프로그래머스>
+
+[n진수게임](https://github.com/yunakim2/Algorithm_Java/blob/master/Programmers/level2/level2_n%EC%A7%84%EC%88%98%EA%B2%8C%EC%9E%84.java)
