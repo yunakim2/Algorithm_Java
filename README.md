@@ -70,5 +70,10 @@
 [1932_정수 삼각형](https://github.com/yunakim2/Algorithm_Java/blob/master/Baekjoon/DP/B_1932.java)
 
 > 7주차
+
+<백준>
+
 [python if문](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/if%EB%AC%B8)
+
 [python_입출력과 사칙연산](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0)
+
