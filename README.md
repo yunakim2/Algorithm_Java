@@ -77,3 +77,16 @@
 
 [python_입출력과 사칙연산](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0)
 
+> 8주차 
+
+<백준>
+
+[python_for문](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/for%EB%AC%B8)
+
+[python_while문](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/while%EB%AC%B8)
+
+[python_실습1](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EC%8B%A4%EC%8A%B5%201)
+
+[python 함수](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%ED%95%A8%EC%88%98)
+
+[python_1차원배열](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4)
