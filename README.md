@@ -90,3 +90,10 @@
 [python 함수](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%ED%95%A8%EC%88%98)
 
 [python_1차원배열](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/1%EC%B0%A8%EC%9B%90%20%EB%B0%B0%EC%97%B4)
+
+
+> 9주차
+
+<백준>
+
+[python_문자열](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EB%AC%B8%EC%9E%90%EC%97%B4)
