@@ -97,3 +97,9 @@
 <백준>
 
 [python_문자열](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EB%AC%B8%EC%9E%90%EC%97%B4)
+
+> 12주차
+
+<백준>
+
+[python_재귀](https://github.com/yunakim2/Algorithm_Python/tree/master/%EB%B0%B1%EC%A4%80/%EC%9E%AC%EA%B7%80)
